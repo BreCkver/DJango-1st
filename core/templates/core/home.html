@@ -2,10 +2,10 @@
 
 {% block title %}Portada{% endblock %}
 
-{% block content %}
 
-<h2>Portada </h2>
-<p>Esto es la portada </p> 
-<p>BreCkver 2022-07</p>
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
 
+{% block header %}
+<h1>Jaime Reyes</h1>
+<span class="subheading">Software Engineer</span>
 {% endblock %}
